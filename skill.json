@@ -1,0 +1,55 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": ""
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "La Caracola Mágica",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1677/b4f43d6eed584f1397d292dc3355cff2/APP_ICON?versionId=hKMwNa8QDLaBkdQkqS7PFNoLulX83Z9x&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551143866&Signature=Z10u5U%2F1f0nvEspDYSLpLjV5dgQ%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ee4/2831bb52eb364c7c85ff6f383fc98899/APP_ICON_LARGE?versionId=VAlKvhXvqZgGLvFdpg57dcKSIxtKUW21&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551143866&Signature=zMSj8aLhCGiwyeXvtVuhIFv9tRo%3D",
+          "summary": "La caracola lo sabe todo, pregúntale lo que quieras.",
+          "description": "Jamas hemos cuestionado la sabiduría de la Caracola Mágica!\nEl club siempre pide su consejo antes de actuar!\nLa caracola lo sabe todo! La caracola ha hablado!\n\nDiviértete preguntándole a la caracola mágica y descubre su infinita sabiduría.\n\nPara mejores resultados debes hacer preguntas cerradas.\n\nEjemplo: \"Alexa, pregunta a la caracola mágica que si debería comer\",\n\"Alexa, Pregunta a la caracola mágica y dime si debería estudiar\".",
+          "examplePhrases": [
+            "Alexa, abre la caracola mágica",
+            "¿debo estudiar?",
+            "¿debería comer este sandwich?"
+          ],
+          "keywords": [
+            "bob",
+            "esponja",
+            "caracola",
+            "magica",
+            "caracola",
+            "magica",
+            "patricio",
+            "spongebob",
+            "calamardo",
+            "gary",
+            "arenita",
+            "bob",
+            "esponja"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "open saying <<Alexa, abre la caracola mágica>>\n\nafter prompt, you should ask anything\nit will tell an audio response, and  audio reprompt asking for another question.\n\nstop saying : para",
+      "category": "GAMES",
+      "distributionCountries": []
+    }
+  }
+}
